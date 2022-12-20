@@ -1,0 +1,25 @@
+/* Add.php section css */
+
+.formsection{
+    border: 1px solid;
+    color: black;
+    height: 290px;
+    width: 356px;
+    margin-top: 41px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+form{
+    display: inline-grid;
+    padding: 20px;
+
+}
+
+.group{
+    margin-left: 33px;
+}
+
+.submit-btn{
+    margin-top: 10px;
+}

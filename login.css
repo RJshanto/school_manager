@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.body{
+   background-color:#104242;
+    
+}
+
+
+
+.head_section{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 54px 2px;
+    padding: 114px;
+    margin: auto;
+    background: burlywood;
+    margin-top: 110px;
+}
+
+.text{
+    font-size: 50px;
+    /* font-style: inherit; */
+    text-align: center;
+    text-shadow: 1px 2px;
+    font-style: oblique;
+
+}
+.form_sec{
+    
+    margin-top: 40px;
+}
+.username_txt{
+    
+    font-size: 24px;
+}
+.txt_fild{
+    
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.pass_txt{
+    font-size: 24px;
+}
+
+.pass_fild{
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 23px;
+
+}
+
+.submit_btn{
+    
+    width: 63px;
+    float: right;
+    margin-right: 16px;
+    
+
+}
+.submit_btn:hover{
+    background-color: rgb(12, 231, 107);
+}
