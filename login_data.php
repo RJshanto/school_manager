@@ -17,7 +17,7 @@ if( $username && $password){
     $row_count = mysqli_num_rows($result);
     if($row_count){
         $_SESSION['username']=$username;
-        header("location: http://localhost/php-nirob/mysql/school-manage.php");
+       echo header("location: http://localhost/php-nirob/mysql/school-manage.php");
     }else{
         
     header("location: http://localhost/php-nirob/mysql/login.php");
