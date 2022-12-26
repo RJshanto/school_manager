@@ -1,3 +1,13 @@
+
+<?php
+session_start();
+if(isset($_SESSION['role']) && $_SESSION['role']!=1){
+header('location: http://localhost/php-nirob/mysql/school-manage.php');
+die();
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

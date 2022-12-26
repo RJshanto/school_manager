@@ -14,9 +14,14 @@ if( $username && $password){
     
     $result = mysqli_query($con,$sql) or die("Query Unseccesful");
     
-    $row_count = mysqli_num_rows($result);
-    if($row_count){
+
+    if(mysqli_num_rows($result)>0){
+
+        $row = mysqli_fetch_assoc($result);
+
+
         $_SESSION['username']=$username;
+        $_SESSION['role']=$row['role'];
         header("location: http://localhost/php-nirob/mysql/school-manage.php");
     }else{
         
